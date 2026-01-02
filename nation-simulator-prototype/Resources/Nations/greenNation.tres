@@ -1,7 +1,10 @@
 [gd_resource type="Resource" script_class="NationResource" load_steps=2 format=3 uid="uid://ci84d7wli2mbr"]
 
-[ext_resource type="Script" uid="uid://dxsq3iivw61s6" path="res://Scripts/nationResource.gd" id="1_oa3f8"]
+[ext_resource type="Script" uid="uid://dxsq3iivw61s6" path="res://Scripts/nationResource.gd" id="1_mgcp6"]
 
 [resource]
-script = ExtResource("1_oa3f8")
+script = ExtResource("1_mgcp6")
+name = "Green"
+atlas = Vector2i(1, 0)
+nationType = 2
 metadata/_custom_type_script = "uid://dxsq3iivw61s6"

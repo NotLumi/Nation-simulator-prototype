@@ -4,4 +4,7 @@
 
 [resource]
 script = ExtResource("1_6rfnx")
+name = "Blue"
+atlas = Vector2i(3, 0)
+nationType = 1
 metadata/_custom_type_script = "uid://dxsq3iivw61s6"
