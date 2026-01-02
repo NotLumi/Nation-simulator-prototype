@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://3iads5q6opoh"]
+
+[ext_resource type="Script" uid="uid://b3qofln7hx32h" path="res://Scripts/main.gd" id="1_bo1nx"]
+[ext_resource type="Texture2D" uid="uid://0md35fh6furr" path="res://Assets/nationTilemap.png" id="2_8gbba"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jjvhh"]
+texture = ExtResource("2_8gbba")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_kry3j"]
+sources/0 = SubResource("TileSetAtlasSource_jjvhh")
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_bo1nx")
+
+[node name="NationTilemapLayer" type="TileMapLayer" parent="."]
+unique_name_in_owner = true
+tile_set = SubResource("TileSet_kry3j")
+
+[node name="EvolutionTimer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="EvolutionTimer" to="." method="_on_evolution_timer_timeout"]

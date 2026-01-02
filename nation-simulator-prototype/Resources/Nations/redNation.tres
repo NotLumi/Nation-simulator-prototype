@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="NationResource" load_steps=2 format=3 uid="uid://rt1mkwse0q6x"]
+
+[ext_resource type="Script" uid="uid://dxsq3iivw61s6" path="res://Scripts/nationResource.gd" id="1_vjua3"]
+
+[resource]
+script = ExtResource("1_vjua3")
+metadata/_custom_type_script = "uid://dxsq3iivw61s6"
