@@ -24,7 +24,7 @@ func _unhandled_input(event: InputEvent) -> void:
 				
 			fixZoom()
 const ZoomRate : float = 8.0
-const MaxZoom : float = 1.0
+const MaxZoom : float = 2.0
 const MinZoom : float = 0.1
 const ZoomIncrement : float = 0.1
 

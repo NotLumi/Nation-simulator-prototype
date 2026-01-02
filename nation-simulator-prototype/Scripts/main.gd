@@ -25,14 +25,14 @@ func _ready() -> void:
 	print(Data.getNations())
 
 func _process(delta: float) -> void:
-	
-	for i in activeTilemapArray:
-		activeTilemapArray.erase(i)
-		activeTileTilemapLayer.erase_cell(i)
-	for i in activeTilesDictionary:
-		activeTileTilemapLayer.set_cell(i, 0, Vector2i.ZERO)
-		if i not in activeTilemapArray:
-			activeTilemapArray.append(i)
+	#
+	#for i in activeTilemapArray:
+		#activeTilemapArray.erase(i)
+		#activeTileTilemapLayer.erase_cell(i)
+	#for i in activeTilesDictionary:
+		#activeTileTilemapLayer.set_cell(i, 0, Vector2i.ZERO)
+		#if i not in activeTilemapArray:
+			#activeTilemapArray.append(i)
 	
 	
 	

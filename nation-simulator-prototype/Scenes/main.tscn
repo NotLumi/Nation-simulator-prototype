@@ -62,7 +62,7 @@ wait_time = 0.1
 
 [node name="UpdateTimer" type="Timer" parent="."]
 unique_name_in_owner = true
-wait_time = 0.25
+wait_time = 0.05
 autostart = true
 
 [connection signal="mouse_entered" from="UI/VBoxContainer/SimulateButton" to="." method="_on_start_mouse_entered"]
